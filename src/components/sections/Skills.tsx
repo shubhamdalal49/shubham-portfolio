@@ -14,7 +14,7 @@ import {
   SiCucumber,      // Cucumber
   SiTestin,        // TestNG
   SiPostman,       // Postman
-  // SiPostgresql
+  
 } from 'react-icons/si';
 
 const SkillsSection = styled.section`

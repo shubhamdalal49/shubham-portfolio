@@ -200,18 +200,17 @@ const Contact = () => {
               variants={itemVariants}
               role="paragraph"
             >
-              I'm always interested in hearing about new projects and opportunities.
-              Whether you have a question or just want to say hi, feel free to reach out!
+              Always ready to solve quality challenges and contribute to the growth and success of innovative teams.
             </ContactText>
             <ContactEmail 
-              href="mailto:your.email@example.com"
+              href="mailto:shubhamdalal1997@gmail.com"
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              aria-label="Send me an email at your.email@example.com"
+              aria-label="Send me an email at shubhamdalal1997@gmail.com"
             >
               <FaEnvelope aria-hidden="true" />
-              <span>your.email@example.com</span>
+              <span>Mail Me</span>
             </ContactEmail>
             <SocialLinks 
               variants={itemVariants}
@@ -219,7 +218,7 @@ const Contact = () => {
               aria-label="Social media links"
             >
               <SocialLink 
-                href="https://github.com"
+                href="https://github.com/shubhamdalal49"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}
@@ -230,7 +229,7 @@ const Contact = () => {
                 <span className="sr-only">GitHub</span>
               </SocialLink>
               <SocialLink 
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/shubham-dalal-9a03641a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -5 }}

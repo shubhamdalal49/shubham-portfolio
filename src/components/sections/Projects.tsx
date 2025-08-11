@@ -178,21 +178,21 @@ const ProjectLinks = styled.div`
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A full-stack web application with real-time features and modern UI/UX design.",
+    title: "End-to-End E-Commerce Web Automation Framework for Demoblaze using Selenium & Cucumber",
+    description: "A robust web automation framework built with Java, Selenium WebDriver, and Cucumber BDD using Page Object Model principles. Designed with modular test cases and reusable components, it automates end-to-end e-commerce workflows including user sign-up, data-driven login, product selection, add-to-cart, and order placement. Integrated with CI/CD pipelines (GitHub Actions, Jenkins) for scalable, headless execution with dynamic assertions, detailed reporting, and robust error handling for efficient regression testing.",
     image: "https://via.placeholder.com/400x200",
-    techStack: ["React", "Node.js", "MongoDB", "Socket.IO"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    techStack: ["Selenium", "Java", "Cucumber", "Maven"],
+    githubUrl: "https://github.com/shubhamdalal49/demoblaze-automation.git",
+    // liveUrl: "https://example.com",
   },
   {
     id: 2,
-    title: "Project Two",
-    description: "Mobile-first e-commerce platform with seamless payment integration.",
+    title: "Java RestAssured BDD Automation Framework",
+    description: "A robust API automation framework built with Java, RestAssured, and Cucumber BDD using Page Object Model principles. Designed with modular test cases and reusable components, it supports automated validation of all major HTTP methods (GET, POST, PUT, DELETE) and integrates with CI/CD pipelines for scalable testing of RESTful services.",
     image: "https://via.placeholder.com/400x200",
-    techStack: ["Next.js", "TypeScript", "Stripe", "Tailwind"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    techStack: ["RestAssured", "Java", "Cucumber", "RestAPI"],
+    githubUrl: "https://github.com/shubhamdalal49/api-test-automation.git",
+    // liveUrl: "https://example.com",
   },
 ];
 
@@ -269,7 +269,7 @@ const Projects = () => {
                     <span className="sr-only">GitHub repository</span>
                   </a>
                   <a 
-                    href={project.liveUrl} 
+                    // href={project.liveUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label={`Visit ${project.title} live site`}

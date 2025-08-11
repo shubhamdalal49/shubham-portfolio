@@ -127,18 +127,17 @@ export const Hero = () => {
         <HeroContent>
           <div>
             <Title role="heading" aria-level={2}>
-              Hi, I'm [Your Name]
+              Hi, I'm Shubham
             </Title>
             <Subtitle role="heading" aria-level={3}>
-              Full Stack Developer
+              Automation Test Engineer
             </Subtitle>
             <Description role="paragraph">
-              I create elegant solutions to complex problems, specializing in modern web development
-              with a focus on user experience and clean code.
+            Passionate Software Test Engineer with 3+ years of experience in Automation & Manual Testing. Skilled in Selenium, Playwright, Java, Cucumber BDD, API Testing, and CI/CD pipelines. I design scalable automation frameworks and ensure high-quality, bug-free software through efficient testing strategies. Always eager to learn and adapt to emerging technologies.
             </Description>
             <SocialLinks role="list" aria-label="Social media links">
               <a 
-                href="https://github.com" 
+                href="https://github.com/shubhamdalal49/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Visit my GitHub profile"
@@ -150,7 +149,7 @@ export const Hero = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/shubham-dalal-9a03641a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Visit my LinkedIn profile"
@@ -162,7 +161,7 @@ export const Hero = () => {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a 
-                href="mailto:your.email@example.com"
+                href="mailto:shubhamdalal1997@gmail.com"
                 aria-label="Send me an email"
                 role="listitem"
               >

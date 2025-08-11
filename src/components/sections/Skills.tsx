@@ -2,20 +2,19 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
 import { 
-  FaReact, 
   FaNodeJs, 
+  FaJava, 
   FaDatabase, 
   FaDocker,
   FaGitAlt,
   FaAws
 } from 'react-icons/fa';
 import { 
-  SiTypescript,
-  SiJavascript,
-  SiPython,
-  SiMongodb,
-  SiPostgresql,
-  SiRedux
+  SiSelenium,      // Selenium
+  SiCucumber,      // Cucumber
+  SiTestin,        // TestNG
+  SiPostman,       // Postman
+  SiPostgresql
 } from 'react-icons/si';
 
 const SkillsSection = styled.section`
@@ -153,23 +152,23 @@ const SkillItem = styled(motion.div)`
 
 const skillCategories = [
   {
-    title: 'Frontend',
-    icon: <FaReact />,
+    title: "Web Testing",
+    icon: <SiSelenium />, // Main category icon
     skills: [
-      { name: 'React', icon: <FaReact /> },
-      { name: 'TypeScript', icon: <SiTypescript /> },
-      { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'Redux', icon: <SiRedux /> },
+      { name: "Java", icon: <FaJava /> },
+      { name: "Selenium", icon: <SiSelenium /> },
+      { name: "Cucumber", icon: <SiCucumber /> },
+      { name: "TestNG", icon: <SiTestin /> },
     ],
   },
   {
-    title: 'Backend',
-    icon: <FaNodeJs />,
+    title: "API Testing",
+    icon: <FaNodeJs />, // Main category icon
     skills: [
-      { name: 'Node.js', icon: <FaNodeJs /> },
-      { name: 'Python', icon: <SiPython /> },
-      { name: 'MongoDB', icon: <SiMongodb /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql /> },
+      { name: "RestAPI", icon: <FaNodeJs /> }, // Using SpringBoot icon if you're testing Java APIs
+      { name: "RestAssured", icon: <FaJava /> }, // No direct icon, so Java icon as it's Java-based
+      { name: "Postman", icon: <SiPostman /> },
+      { name: "SQL", icon: <FaDatabase /> }, // Or <FaDatabase /> if generic DB icon is fine
     ],
   },
   {
